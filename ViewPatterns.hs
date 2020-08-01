@@ -21,7 +21,7 @@ lensDownloads _                           = 0
 experiment :: String -> Bool
 experiment (length -> 4) = True
 experiment (map toUpper -> "HELLO") = False
-experiemtn _ = True
+experiment _ = True
 
 -- A way of achieving something similar with LambdaCase
 lensDownloadsLambdaCase :: M.Map HaskellPackage Int -> Int
